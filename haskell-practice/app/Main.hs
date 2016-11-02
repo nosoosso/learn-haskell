@@ -1,9 +1,8 @@
 module Main where
 
-import qualified Lib 
+import UseWriterMonad
 
 main :: IO ()
 main = do
-  print Lib.ok
-  print Lib.notOk
+  print $ showWriterResult
   return ()
