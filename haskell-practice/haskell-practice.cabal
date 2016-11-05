@@ -15,7 +15,12 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     REither, LEither, Misc, UseWriterMonad
+  exposed-modules:
+    REither
+    LEither
+    Misc
+    UseWriterMonad
+    UseReaderMonad
   build-depends:       base >= 4.7 && < 5
                       ,mtl
   default-language:    Haskell2010

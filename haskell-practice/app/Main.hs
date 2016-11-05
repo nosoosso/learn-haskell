@@ -1,8 +1,8 @@
 module Main where
 
-import UseWriterMonad
+import UseReaderMonad
 
 main :: IO ()
 main = do
-  print $ showWriterResult
+  print $ runReaderMonad mapReaderMonad 3
   return ()
