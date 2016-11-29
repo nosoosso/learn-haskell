@@ -1,8 +1,8 @@
 module Main where
 
-import UseReaderMonad
+import UseMin
 
 main :: IO ()
 main = do
-  print $ runReaderMonad mapReaderMonad 3
+  run
   return ()

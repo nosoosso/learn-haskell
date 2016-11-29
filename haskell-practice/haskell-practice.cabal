@@ -19,10 +19,12 @@ library
     REither
     LEither
     Misc
+    UseMin
     UseWriterMonad
     UseReaderMonad
   build-depends:       base >= 4.7 && < 5
                       ,mtl
+                      ,semigroups
   default-language:    Haskell2010
 
 executable haskell-practice-exe
