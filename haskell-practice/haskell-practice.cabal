@@ -19,6 +19,7 @@ library
     REither
     LEither
     Misc
+    UseCoercible
     UseMin
     UseWriterMonad
     UseReaderMonad
