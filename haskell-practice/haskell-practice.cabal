@@ -21,8 +21,9 @@ library
     Misc
     UseCoercible
     UseMin
-    UseWriterMonad
+    UseStateMonad
     UseReaderMonad
+    UseWriterMonad
   build-depends:       base >= 4.7 && < 5
                       ,mtl
                       ,semigroups
