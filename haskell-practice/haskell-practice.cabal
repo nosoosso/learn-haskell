@@ -16,6 +16,7 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:
+    IntroductionToHaskell.Lottery
     REither
     LEither
     Misc
@@ -26,7 +27,9 @@ library
     UseWriterMonad
   build-depends:       base >= 4.7 && < 5
                       ,mtl
+                      ,random-shuffle
                       ,semigroups
+                      ,transformers
   default-language:    Haskell2010
 
 executable haskell-practice-exe
