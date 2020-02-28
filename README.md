@@ -1,7 +1,18 @@
-# trash-can
+## Build
 
-コードの不法投棄場
+```
+$ stack build
+```
 
-## LICENSE
+## Run
 
-MIT
+```
+$ stack exec haskell-practice-exe
+```
+
+## Run in GHCi
+
+```
+:l SomeModule
+someFunc
+```
